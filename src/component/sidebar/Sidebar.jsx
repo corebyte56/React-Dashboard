@@ -7,7 +7,7 @@ import SidebarFooter from './SidebarFooter'
 
 const Sidebar = () => {
   return (
-    <div className='bg-white rounded-2xl p-10 space-y-6 min-w-fit w-fit'>
+    <div className='bg-white rounded-2xl px-4 py-3 space-y-4 min-w-fit w-fit'>
       <SidebarLogo />
       <Sidebarinput />
       <SidebarCatagory />

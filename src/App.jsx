@@ -2,7 +2,7 @@ import React from 'react'
 import SideBar from './component/sidebar/Sidebar'
 const App = () => {
   return (
-    <div className='bg-[#F6F6F3] p-8 h-screen'>
+    <div className='bg-[#F6F6F3] p-4 h-screen'>
       <SideBar />
       
     </div>

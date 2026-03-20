@@ -26,7 +26,7 @@ const SidebarCatagory = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="flex flex-col gap-2.5 text-[18px] py-4">
+    <div className="flex flex-col gap-2.5 text-[14px] py-4">
       {links.map((link, index) => (
         <motion.a
           key={index}
