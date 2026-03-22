@@ -5,7 +5,7 @@ import Quartergoal from './Quarter goal/Quartergoal'
 
 const StatsCard = () => {
   return (
-    <div className='flex gap-4'>
+    <div className='statsCard flex gap-4'>
       <Revenus/>
       <LostDeals/>
       <Quartergoal/>

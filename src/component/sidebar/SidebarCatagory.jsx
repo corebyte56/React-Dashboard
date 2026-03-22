@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 // Sidebar link data
 const links = [
   { title: "Dashboard", icon: <LayoutDashboard /> },
