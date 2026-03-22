@@ -1,9 +1,12 @@
 import React from 'react'
+import GrowthHeader from './GrowthHeader'
+import GrowthChart from './GrowthChart'
 
 const Growth = () => {
   return (
-    <div className='Growth h-120 w-120 bg-amber-200'>
-      
+    <div className='Growth'>
+      <GrowthHeader/>
+      <GrowthChart/>  
     </div>
   )
 }
