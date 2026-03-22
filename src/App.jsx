@@ -12,8 +12,9 @@ const App = () => {
       <StatsCard />
       <Customer/>
       <Growth/>
-      <Chats/>
       <TopCards/>
+      <Chats/>
+      
     </div>
   )
 }
