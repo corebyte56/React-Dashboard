@@ -40,7 +40,7 @@ const GrowthChart = () => {
   ];
 
   return (
-    <div className="bg-white p-4 rounded-2xl">
+    <div className="bg-white p-4 rounded-2xl ">
       <Chart options={options} series={series} type="area" height={280} />
     </div>
   );
