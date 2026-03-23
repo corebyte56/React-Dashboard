@@ -5,7 +5,7 @@ import TopBuyer from './TopBuyer'
 
 const TopCards = () => {
   return (
-    <div id='topCards' className=' flex gap-10'>
+    <div id='topCards' className='flex flex-wrap gap-4 justify-between w-full'>
       <TopMonth/>
       <TopYear/>
       <TopBuyer/>

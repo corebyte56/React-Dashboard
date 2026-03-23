@@ -4,7 +4,7 @@ import People from './people'
 
 const Chats = () => {
   return (
-    <div id='chats' className=' py-6 px-9 border rounded-2xl w-fit flex flex-col gap-6'>
+    <div id='chats' className=' py-6 px-9 rounded-2xl w-full flex flex-col gap-6'>
       <ChatHeader/>
       <People/>
     </div>

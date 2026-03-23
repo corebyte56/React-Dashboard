@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 const data = [
   { state: "NY", value: 120, percent: 90 },
   { state: "MA", value: 80, percent: 70 },
@@ -8,10 +8,9 @@ const data = [
 
 const TopStateGraph = () => {
   return (
-     <div className="bg-white p-5 w-75 rounded-2xl">
-      
-      
-      {/* Bars */}
+    
+    <div className="bg-white p-5 w-full rounded-2xl">
+     
       <div className="flex flex-col gap-2">
         {data.map((item, i) => (
           <div
@@ -24,9 +23,8 @@ const TopStateGraph = () => {
           </div>
         ))}
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default TopStateGraph
+export default TopStateGraph;
