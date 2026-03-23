@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <div
       id="sidebar"
-      className=" bg-white rounded-2xl px-4 py-3 space-y-4 w-full h-full"
+      className=" bg-white rounded-2xl px-4 py-3 my-4 mb-200 space-y-4 w-full"
     >
       <SidebarLogo />
       <Sidebarinput />
