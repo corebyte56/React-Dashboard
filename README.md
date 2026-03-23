@@ -47,47 +47,46 @@ A modern and responsive dashboard UI built with React and powerful libraries lik
 
 ```bash
 REACT DASHBOARD/
-├── node_modules/             # Project dependencies
-├── public/                    # Static assets (favicons, etc.)
-├── src/                       # Main source code
-│   ├── assets/                # Images and media
-│   │   ├── admin.png
-│   │   └── Logomark.png
-│   ├── component/             # Reusable UI components
-│   │   ├── sidebar/           # Sidebar specific components
-│   │   │   ├── Logout.jsx
-│   │   │   ├── Sidebar.jsx
-│   │   │   ├── SidebarCatagory.jsx
-│   │   │   ├── SidebarFooter.jsx
-│   │   │   ├── SidebarInput.jsx
-│   │   │   ├── SidebarLogo.jsx
-│   │   │   ├── SidebarSetting.jsx
-│   │   │   └── SidebarUser.jsx
-│   │   ├── Stats-Cards/       # Dashboard card components
-│   │   │   ├── Lost deals/    # Components for Lost Deals card
-│   │   │   │   ├── AllDeals.jsx
-│   │   │   │   ├── LostDeals.jsx
-│   │   │   │   ├── LostDealsHeader.jsx
-│   │   │   │   ├── LostDealsParcentage.jsx
-│   │   │   │   └── LostDealsText.jsx
-│   │   │   ├── Quarter goal/  # Components for Quarter Goal card
-│   │   │   ├── Revenues/      # Components for Revenues card
-│   │   │   │   ├── Revenus.jsx
-│   │   │   │   ├── RevenusHeader.jsx
-│   │   │   │   ├── RevenusParcentage.jsx
-│   │   │   │   ├── RevenusReport.jsx
-│   │   │   │   └── RevenusText.jsx
-│   │   │   └── StatsCard.jsx  # Generic wrapper for stats
-│   ├── App.jsx                # Main App component
-│   ├── index.css              # Global styles
-│   └── main.jsx               # Project entry point
-├── .gitignore                 # Files to ignore in Git
-├── eslint.config.js           # Linting rules
-├── index.html                 # HTML template
-├── package-lock.json          # Dependency lock file
-├── package.json               # Scripts and dependencies
-├── README.md                  # Project documentation
-└── vite.config.js             # Vite configuration
+src/
+├── assets/                 # Images, Icons, Logos (e.g., Logomark.png, c1.png)
+├── component/              # Reusable Components
+│   ├── sidebar/            # Sidebar specific components
+│   │   ├── Sidebar.jsx
+│   │   ├── SidebarLogo.jsx
+│   │   ├── Sidebarinput.jsx
+│   │   ├── SidebarCatagory.jsx
+│   │   └── SidebarFooter.jsx
+│   ├── Stats-Cards/        # Top Revenue/Goal cards
+│   │   ├── StatsCard.jsx
+│   │   ├── Revenues/       # Sub-folder for complex parts
+│   │   │   ├── Revenus.jsx
+│   │   │   └── RevenusHeader.jsx
+│   │   ├── Lost-deals/
+│   │   └── Quarter-goal/
+│   ├── Customer/           # Customer section
+│   │   ├── Customer.jsx
+│   │   ├── CustomerHeader.jsx
+│   │   └── CustomerList.jsx
+│   ├── Growth/             # Growth section
+│   │   ├── Growth.jsx
+│   │   └── GrowthChart.jsx
+│   ├── Top-cards/          # Yellow cards (Month, Year, Buyer)
+│   │   ├── TopCards.jsx
+│   │   ├── TopMonth.jsx
+│   │   ├── TopYear.jsx
+│   │   └── TopBuyer.jsx
+│   ├── Chats/              # Chat section
+│   │   ├── Chats.jsx
+│   │   └── People.jsx
+│   ├── Top-States/         # States section
+│   │   ├── TopStates.jsx
+│   │   └── TopStateGraph.jsx
+│   └── New-deals/          # Deals section
+│       ├── NewDeals.jsx
+│       └── NewDealsBody.jsx
+├── App.jsx                 # Main Layout/Grid setup
+├── main.jsx                # Entry point
+└── index.css               # Tailwind & Global styles
 ```
 
 ---
