@@ -6,6 +6,7 @@ import Growth from './component/Growth/Growth'
 import Chats from './component/Chats/Chats'
 import TopCards from './component/Top cards/TopCards'
 import TopStates from './component/Top States/TopStates'
+import NewDeals from './component/New deals/NewDeals'
 const App = () => {
   return (
     <div className='dashboard bg-[#F6F6F3] p-4 h-screen flex flex-col gap-4'>
@@ -15,7 +16,8 @@ const App = () => {
       <Growth/>
       <TopCards/>
       <Chats/>
-      <TopStates/>    
+      <TopStates/>
+      <NewDeals/>  
     </div>
   )
 }
