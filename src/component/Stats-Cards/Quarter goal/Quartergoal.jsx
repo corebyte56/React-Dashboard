@@ -6,14 +6,14 @@ import AllGoal from "./AllGoal";
 
 const Quartergoal = () => {
   return (
-    <div id="quarter" className="bg-white px-6 py-5 rounded-2xl w-full h-full items-center text-center">
-      <div className="flex flex-col items-center px-6 py-5">
+    <div id="quarter" className="bg-white px-3 py-2 rounded-2xl w-70 h-full items-center text-center">
+      <div className="flex flex-col items-center px-3 py-2">
         <QuarterGoalHeader />
-        <div className="-mt-6">
+        <div className="w-fit">
             <QuarterGoalChart />
         </div>
         
-        <div className="-mt-6">
+        <div className="-mt-8">
             <AllGoal />
         </div>
       </div>
