@@ -4,7 +4,7 @@ import GrowthChart from './GrowthChart'
 
 const Growth = () => {
   return (
-    <div className='Growth'>
+    <div id='growth'>
       <GrowthHeader/>
       <GrowthChart/>  
     </div>

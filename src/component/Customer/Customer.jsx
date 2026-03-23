@@ -5,7 +5,7 @@ import AllCustomer from './AllCustomer'
 
 const Customer = () => {
   return (
-    <div className='customer'>
+    <div id='customer'>
       <CustomerHeader/>
       <CustomerList/>
       <AllCustomer/>

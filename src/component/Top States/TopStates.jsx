@@ -4,7 +4,7 @@ import TopStateGraph from './TopStateGraph'
 
 const TopStates = () => {
   return (
-    <div >
+    <div id='topStates'>
       <TopstateHeader/>
       <TopStateGraph/>
     </div>

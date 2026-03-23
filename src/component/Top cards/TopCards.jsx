@@ -5,7 +5,7 @@ import TopBuyer from './TopBuyer'
 
 const TopCards = () => {
   return (
-    <div className='flex gap-10'>
+    <div id='topCards' className=' flex gap-10'>
       <TopMonth/>
       <TopYear/>
       <TopBuyer/>
